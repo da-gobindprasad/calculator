@@ -1,0 +1,6 @@
+print("*" * 50)
+try: choice = int(input("Enter the number for Table: "))
+except ValueError: print("You not enter the number")
+else:
+    for i in range(1,11): print(choice," x ", i," = " , i*choice)
+print("*" * 50)
